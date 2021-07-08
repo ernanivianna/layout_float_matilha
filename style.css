@@ -1,0 +1,16 @@
+
+/* facilita os cálculos de tamanho de componentes e imagens */
+html {
+    box-sizing: border-box;
+}
+
+/* Como box-sizing não é hereditário, este macete abaixo garante que todo mundo seja sempre border-box */
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Iniciando este projeto com conceito mobile first */
